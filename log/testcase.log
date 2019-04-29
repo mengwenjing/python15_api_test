@@ -1,0 +1,495 @@
+2019-04-28 16:57:20,124-INFO-collect_log.py-testcaselog-日志信息:hhhhhhh-codeLine:43
+2019-04-28 16:57:20,126-INFO-collect_log.py-testcaselog-日志信息:xxxxxxx-codeLine:43
+2019-04-29 11:38:40,726-INFO-collect_log.py-testcaselog-日志信息:开始执行TestAdd测试类-codeLine:43
+2019-04-29 11:38:41,121-INFO-collect_log.py-testcaselog-日志信息:开始执行TestAudit测试类-codeLine:43
+2019-04-29 11:38:41,194-INFO-collect_log.py-testcaselog-日志信息:开始执行TestInvest测试类-codeLine:43
+2019-04-29 11:38:41,251-INFO-collect_log.py-testcaselog-日志信息:开始执行TestLogin测试类-codeLine:43
+2019-04-29 11:38:41,359-INFO-collect_log.py-testcaselog-日志信息:开始执行TestRecharge测试类-codeLine:43
+2019-04-29 11:38:41,424-INFO-collect_log.py-testcaselog-日志信息:开始执行TestRegister测试类-codeLine:43
+2019-04-29 11:39:55,524-INFO-collect_log.py-testcaselog-日志信息:开始执行TestAdd测试类-codeLine:43
+2019-04-29 11:39:55,554-INFO-collect_log.py-testcaselog-日志信息:开始执行TestAudit测试类-codeLine:43
+2019-04-29 11:39:55,579-INFO-collect_log.py-testcaselog-日志信息:开始执行TestInvest测试类-codeLine:43
+2019-04-29 11:39:55,605-INFO-collect_log.py-testcaselog-日志信息:开始执行TestLogin测试类-codeLine:43
+2019-04-29 11:39:55,632-INFO-collect_log.py-testcaselog-日志信息:开始执行TestRecharge测试类-codeLine:43
+2019-04-29 11:39:55,658-INFO-collect_log.py-testcaselog-日志信息:开始执行TestRegister测试类-codeLine:43
+2019-04-29 11:40:12,398-INFO-collect_log.py-testcaselog-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:43
+2019-04-29 11:40:12,399-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:43
+2019-04-29 11:40:12,554-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:14,660-INFO-collect_log.py-testcaselog-日志信息:执行用例是：成功加标，请求url是：/loan/add-codeLine:43
+2019-04-29 11:40:14,665-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1451,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:43
+2019-04-29 11:40:14,739-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:15,748-INFO-collect_log.py-testcaselog-日志信息:执行用例是：成功竞标，请求url是：/member/bidLoan-codeLine:43
+2019-04-29 11:40:15,753-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":5797,"amount":2000}-codeLine:43
+2019-04-29 11:40:15,859-ERROR-collect_log.py-testcaselog-日志信息:断言失败，错误信息是：10001 != 11010-codeLine:53
+2019-04-29 11:40:16,116-INFO-collect_log.py-testcaselog-日志信息:执行用例是：参数为空，请求url是：/loan/add-codeLine:43
+2019-04-29 11:40:16,117-INFO-collect_log.py-testcaselog-日志信息:请求数据是：None-codeLine:43
+2019-04-29 11:40:16,188-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:16,946-INFO-collect_log.py-testcaselog-日志信息:执行用例是：用户ID为小数，请求url是：/loan/add-codeLine:43
+2019-04-29 11:40:16,948-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":-221,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:43
+2019-04-29 11:40:17,020-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:17,265-INFO-collect_log.py-testcaselog-日志信息:执行用例是：用户不存在，请求url是：/loan/add-codeLine:43
+2019-04-29 11:40:17,267-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":2212200,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:43
+2019-04-29 11:40:17,334-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:17,529-INFO-collect_log.py-testcaselog-日志信息:执行用例是：借款金额小于1000，请求url是：/loan/add-codeLine:43
+2019-04-29 11:40:17,533-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1451,"title":"大C的测试标的","amount":9,"amount":900,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:43
+2019-04-29 11:40:17,626-ERROR-collect_log.py-testcaselog-日志信息:断言失败，错误信息是：20106 != 10001-codeLine:53
+2019-04-29 11:40:18,229-INFO-collect_log.py-testcaselog-日志信息:执行用例是：借款利率小于0，请求url是：/loan/add-codeLine:43
+2019-04-29 11:40:18,233-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1451,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":-5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:43
+2019-04-29 11:40:18,313-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:18,622-INFO-collect_log.py-testcaselog-日志信息:执行用例是：借款日期类型错误，请求url是：/loan/add-codeLine:43
+2019-04-29 11:40:18,626-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1451,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":5,"repaymemtWay":11,"biddingDays":10}-codeLine:43
+2019-04-29 11:40:18,701-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:25,155-INFO-collect_log.py-testcaselog-日志信息:执行用例是：登录成功，请求url是：/member/login-codeLine:43
+2019-04-29 11:40:25,157-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:43
+2019-04-29 11:40:25,238-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:25,374-INFO-collect_log.py-testcaselog-日志信息:执行用例是：加标成功，请求url是：/loan/add-codeLine:43
+2019-04-29 11:40:25,376-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1764,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:43
+2019-04-29 11:40:25,464-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:26,254-INFO-collect_log.py-testcaselog-日志信息:成功加标的ID是：6067-codeLine:43
+2019-04-29 11:40:26,744-INFO-collect_log.py-testcaselog-日志信息:执行用例是：已经是该状态，修改失败，请求url是：/loan/audit-codeLine:43
+2019-04-29 11:40:26,749-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"id":6067,"status":1}-codeLine:43
+2019-04-29 11:40:26,836-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:26,953-INFO-collect_log.py-testcaselog-日志信息:执行用例是：审核成功，请求url是：/loan/audit-codeLine:43
+2019-04-29 11:40:26,958-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"id":6067,"status":2}-codeLine:43
+2019-04-29 11:40:27,051-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:27,913-INFO-collect_log.py-testcaselog-日志信息:执行用例是：标的ID错误，请求url是：/loan/audit-codeLine:43
+2019-04-29 11:40:27,914-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"id":"hh","status":1}-codeLine:43
+2019-04-29 11:40:27,983-ERROR-collect_log.py-testcaselog-日志信息:断言失败，错误信息是：20204 != 20212-codeLine:53
+2019-04-29 11:40:28,359-INFO-collect_log.py-testcaselog-日志信息:执行用例是：status参数错误，请求url是：/loan/audit-codeLine:43
+2019-04-29 11:40:28,361-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"id":6067,"status":12}-codeLine:43
+2019-04-29 11:40:28,430-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:40:28,817-INFO-collect_log.py-testcaselog-日志信息:执行用例是：标的不存在，请求url是：/loan/audit-codeLine:43
+2019-04-29 11:40:28,822-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"id":6330002,"status":1}-codeLine:43
+2019-04-29 11:40:28,901-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:04,055-INFO-collect_log.py-testcaselog-日志信息:执行用例是：管理员成功加标，请求url是：/loan/add-codeLine:43
+2019-04-29 11:41:04,057-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1764,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:43
+2019-04-29 11:41:05,157-INFO-collect_log.py-testcaselog-日志信息:执行用例是：管理员审核成功，请求url是：/loan/audit-codeLine:43
+2019-04-29 11:41:05,161-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"id":6067,"status":4}-codeLine:43
+2019-04-29 11:41:06,089-INFO-collect_log.py-testcaselog-日志信息:成功竞标前，用户余额是：120030.22-codeLine:43
+2019-04-29 11:41:07,531-INFO-collect_log.py-testcaselog-日志信息:执行用例是：成功竞标，请求url是：/member/bidLoan-codeLine:43
+2019-04-29 11:41:07,535-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":6067,"amount":2000}-codeLine:43
+2019-04-29 11:41:07,962-INFO-collect_log.py-testcaselog-日志信息:执行用例是：参数为空，请求url是：/member/bidLoan-codeLine:43
+2019-04-29 11:41:07,966-INFO-collect_log.py-testcaselog-日志信息:请求数据是：None-codeLine:43
+2019-04-29 11:41:08,209-INFO-collect_log.py-testcaselog-日志信息:执行用例是：memberId等于0，请求url是：/member/bidLoan-codeLine:43
+2019-04-29 11:41:08,214-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":0,"password":"123456","loanId":6067,"amount":100}-codeLine:43
+2019-04-29 11:41:08,526-INFO-collect_log.py-testcaselog-日志信息:执行用例是：loanId等于负数，请求url是：/member/bidLoan-codeLine:43
+2019-04-29 11:41:08,531-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":-10,"amount":100}-codeLine:43
+2019-04-29 11:41:08,985-INFO-collect_log.py-testcaselog-日志信息:执行用例是：密码错误，请求url是：/member/bidLoan-codeLine:43
+2019-04-29 11:41:08,989-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":6067,"amount":100}-codeLine:43
+2019-04-29 11:41:09,289-INFO-collect_log.py-testcaselog-日志信息:执行用例是：投资金额小于100，请求url是：/member/bidLoan-codeLine:43
+2019-04-29 11:41:09,293-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":6067,"amount":99}-codeLine:43
+2019-04-29 11:41:09,493-INFO-collect_log.py-testcaselog-日志信息:执行用例是：用户未注册，请求url是：/member/bidLoan-codeLine:43
+2019-04-29 11:41:09,497-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":221002,"password":"123456","loanId":6067,"amount":100}-codeLine:43
+2019-04-29 11:41:09,700-INFO-collect_log.py-testcaselog-日志信息:执行用例是：标的不存在，请求url是：/member/bidLoan-codeLine:43
+2019-04-29 11:41:09,704-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":12345456785,"amount":100}-codeLine:43
+2019-04-29 11:41:10,774-INFO-collect_log.py-testcaselog-日志信息:执行用例是：不在竞标中状态，请求url是：/member/bidLoan-codeLine:43
+2019-04-29 11:41:10,777-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":6067,"amount":100}-codeLine:43
+2019-04-29 11:41:11,857-INFO-collect_log.py-testcaselog-日志信息:执行用例是：参数类型错误，请求url是：/member/bidLoan-codeLine:43
+2019-04-29 11:41:11,859-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"memberId":"1451","password":123456,"loanId":"6067","amount":"200"}-codeLine:43
+2019-04-29 11:41:17,141-INFO-collect_log.py-testcaselog-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:43
+2019-04-29 11:41:17,143-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:43
+2019-04-29 11:41:17,225-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:17,408-INFO-collect_log.py-testcaselog-日志信息:执行用例是：用户名为空，请求url是：/member/login-codeLine:43
+2019-04-29 11:41:17,410-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"","pwd":"123456"}-codeLine:43
+2019-04-29 11:41:17,517-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:17,883-INFO-collect_log.py-testcaselog-日志信息:执行用例是：密码为空，请求url是：/member/login-codeLine:43
+2019-04-29 11:41:17,888-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":""}-codeLine:43
+2019-04-29 11:41:17,960-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:18,539-INFO-collect_log.py-testcaselog-日志信息:执行用例是：用户名错误，请求url是：/member/login-codeLine:43
+2019-04-29 11:41:18,541-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13125250033","pwd":"123456"}-codeLine:43
+2019-04-29 11:41:18,609-ERROR-collect_log.py-testcaselog-日志信息:断言出错，错误信息是：'{"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}
+?                                                   -
++ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+-codeLine:53
+2019-04-29 11:41:23,146-INFO-collect_log.py-testcaselog-日志信息:执行用例是：密码错误，请求url是：/member/login-codeLine:43
+2019-04-29 11:41:23,149-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456777"}-codeLine:43
+2019-04-29 11:41:23,230-ERROR-collect_log.py-testcaselog-日志信息:断言出错，错误信息是：'{"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}
+?                                                   -
++ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+-codeLine:53
+2019-04-29 11:41:31,948-INFO-collect_log.py-testcaselog-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:43
+2019-04-29 11:41:31,949-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:43
+2019-04-29 11:41:32,019-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:33,140-INFO-collect_log.py-testcaselog-日志信息:用例开始执行前，账户余额是：120030.22-codeLine:43
+2019-04-29 11:41:33,501-INFO-collect_log.py-testcaselog-日志信息:执行用例是：充值成功，请求url是：/member/recharge-codeLine:43
+2019-04-29 11:41:33,505-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13125256363","amount":5000}-codeLine:43
+2019-04-29 11:41:33,590-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:33,875-INFO-collect_log.py-testcaselog-日志信息:充值成功后，账户余额是：125030.22-codeLine:43
+2019-04-29 11:41:33,879-INFO-collect_log.py-testcaselog-日志信息:充值成功后,账户余额正确-codeLine:43
+2019-04-29 11:41:33,961-INFO-collect_log.py-testcaselog-日志信息:执行用例是：手机号为空，请求url是：/member/recharge-codeLine:43
+2019-04-29 11:41:33,965-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"","amount":15}-codeLine:43
+2019-04-29 11:41:34,038-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:34,110-INFO-collect_log.py-testcaselog-日志信息:执行用例是：充值金额为空，请求url是：/member/recharge-codeLine:43
+2019-04-29 11:41:34,111-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13125256363","amount":None}-codeLine:43
+2019-04-29 11:41:34,181-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:34,274-INFO-collect_log.py-testcaselog-日志信息:执行用例是：手机号未注册，请求url是：/member/recharge-codeLine:43
+2019-04-29 11:41:34,279-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13100001111","amount":1.22}-codeLine:43
+2019-04-29 11:41:34,365-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:34,615-INFO-collect_log.py-testcaselog-日志信息:执行用例是：充值金额小于0，请求url是：/member/recharge-codeLine:43
+2019-04-29 11:41:34,620-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13125256363","amount":-10}-codeLine:43
+2019-04-29 11:41:34,727-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:34,949-INFO-collect_log.py-testcaselog-日志信息:执行用例是：充值金额精度为3位小数，请求url是：/member/recharge-codeLine:43
+2019-04-29 11:41:34,950-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{"mobilephone":"13125256363","amount":10.345}-codeLine:43
+2019-04-29 11:41:35,022-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:41,510-INFO-collect_log.py-testcaselog-日志信息:执行用例是：手机号密码正确，请求url是：/member/register-codeLine:43
+2019-04-29 11:41:41,514-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{'mobilephone': 19000000000, 'pwd': '12345678'}-codeLine:43
+2019-04-29 11:41:41,605-ERROR-collect_log.py-testcaselog-日志信息:断言失败，错误是：'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ^^^                     ^^^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^         ++  ^                     ^^^^^^^^^
+-codeLine:53
+2019-04-29 11:41:43,059-INFO-collect_log.py-testcaselog-日志信息:执行用例是：密码为6位，请求url是：/member/register-codeLine:43
+2019-04-29 11:41:43,062-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{'mobilephone': 19000000000, 'pwd': '123456'}-codeLine:43
+2019-04-29 11:41:43,217-ERROR-collect_log.py-testcaselog-日志信息:断言失败，错误是：'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ^^^                     ^^^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^         ++  ^                     ^^^^^^^^^
+-codeLine:53
+2019-04-29 11:41:44,021-INFO-collect_log.py-testcaselog-日志信息:执行用例是：密码为18位，请求url是：/member/register-codeLine:43
+2019-04-29 11:41:44,022-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{'mobilephone': 19000000000, 'pwd': '1234567890abcdefgh'}-codeLine:43
+2019-04-29 11:41:44,100-ERROR-collect_log.py-testcaselog-日志信息:断言失败，错误是：'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ^^^                     ^^^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^         ++  ^                     ^^^^^^^^^
+-codeLine:53
+2019-04-29 11:41:44,266-INFO-collect_log.py-testcaselog-日志信息:执行用例是：手机号为空，请求url是：/member/register-codeLine:43
+2019-04-29 11:41:44,268-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{'mobilephone': '', 'pwd': '12345678'}-codeLine:43
+2019-04-29 11:41:44,346-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:47,324-INFO-collect_log.py-testcaselog-日志信息:执行用例是：密码为空，请求url是：/member/register-codeLine:43
+2019-04-29 11:41:47,325-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{'mobilephone': 19000000000, 'pwd': ''}-codeLine:43
+2019-04-29 11:41:47,396-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:54,800-INFO-collect_log.py-testcaselog-日志信息:执行用例是：密码为5位，请求url是：/member/register-codeLine:43
+2019-04-29 11:41:54,805-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{'mobilephone': 19000000000, 'pwd': '12345'}-codeLine:43
+2019-04-29 11:41:54,885-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:41:56,085-INFO-collect_log.py-testcaselog-日志信息:执行用例是：手机号已注册，请求url是：/member/register-codeLine:43
+2019-04-29 11:41:56,092-INFO-collect_log.py-testcaselog-日志信息:请求数据是：{'mobilephone': '13125256363', 'pwd': '123456'}-codeLine:43
+2019-04-29 11:41:56,194-INFO-collect_log.py-testcaselog-日志信息:用例执行成功-codeLine:43
+2019-04-29 11:56:20,691-INFO-collect_log.py-testcaselog-日志信息:开始执行TestLogin测试类-codeLine:43
+2019-04-29 12:06:08,061-INFO-collect_log.py-test_login-日志信息:开始执行TestLogin测试类-codeLine:43
+2019-04-29 12:07:13,408-INFO-collect_log.py-test_login-日志信息:开始执行TestLogin测试类-codeLine:43
+2019-04-29 12:07:14,798-INFO-collect_log.py-test_login-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:43
+2019-04-29 12:07:14,798-INFO-collect_log.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:43
+2019-04-29 12:07:14,874-INFO-collect_log.py-test_login-日志信息:用例执行成功-codeLine:43
+2019-04-29 12:07:14,934-INFO-collect_log.py-test_login-日志信息:执行用例是：用户名为空，请求url是：/member/login-codeLine:43
+2019-04-29 12:07:14,934-INFO-collect_log.py-test_login-日志信息:请求数据是：{"mobilephone":"","pwd":"123456"}-codeLine:43
+2019-04-29 12:07:15,008-INFO-collect_log.py-test_login-日志信息:用例执行成功-codeLine:43
+2019-04-29 12:07:15,548-INFO-collect_log.py-test_login-日志信息:执行用例是：密码为空，请求url是：/member/login-codeLine:43
+2019-04-29 12:07:15,548-INFO-collect_log.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":""}-codeLine:43
+2019-04-29 12:07:15,618-INFO-collect_log.py-test_login-日志信息:用例执行成功-codeLine:43
+2019-04-29 12:07:15,705-INFO-collect_log.py-test_login-日志信息:执行用例是：用户名错误，请求url是：/member/login-codeLine:43
+2019-04-29 12:07:15,705-INFO-collect_log.py-test_login-日志信息:请求数据是：{"mobilephone":"13125250033","pwd":"123456"}-codeLine:43
+2019-04-29 12:07:15,778-ERROR-collect_log.py-test_login-日志信息:断言出错，错误信息是： :: {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}-codeLine:53
+2019-04-29 12:07:15,835-INFO-collect_log.py-test_login-日志信息:执行用例是：密码错误，请求url是：/member/login-codeLine:43
+2019-04-29 12:07:15,836-INFO-collect_log.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456777"}-codeLine:43
+2019-04-29 12:07:15,928-ERROR-collect_log.py-test_login-日志信息:断言出错，错误信息是： :: {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}-codeLine:53
+2019-04-29 12:08:16,970-INFO-collect_log.py-test_login-日志信息:开始执行TestLogin测试类-codeLine:44
+2019-04-29 12:08:17,142-INFO-collect_log.py-test_login-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:44
+2019-04-29 12:08:17,142-INFO-collect_log.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:44
+2019-04-29 12:08:17,223-INFO-collect_log.py-test_login-日志信息:用例执行成功-codeLine:44
+2019-04-29 12:08:17,321-INFO-collect_log.py-test_login-日志信息:执行用例是：用户名为空，请求url是：/member/login-codeLine:44
+2019-04-29 12:08:17,321-INFO-collect_log.py-test_login-日志信息:请求数据是：{"mobilephone":"","pwd":"123456"}-codeLine:44
+2019-04-29 12:08:17,394-INFO-collect_log.py-test_login-日志信息:用例执行成功-codeLine:44
+2019-04-29 12:08:17,690-INFO-collect_log.py-test_login-日志信息:执行用例是：密码为空，请求url是：/member/login-codeLine:44
+2019-04-29 12:08:17,690-INFO-collect_log.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":""}-codeLine:44
+2019-04-29 12:08:17,776-INFO-collect_log.py-test_login-日志信息:用例执行成功-codeLine:44
+2019-04-29 12:08:17,978-INFO-collect_log.py-test_login-日志信息:执行用例是：用户名错误，请求url是：/member/login-codeLine:44
+2019-04-29 12:08:17,979-INFO-collect_log.py-test_login-日志信息:请求数据是：{"mobilephone":"13125250033","pwd":"123456"}-codeLine:44
+2019-04-29 12:08:18,054-ERROR-collect_log.py-test_login-日志信息:断言出错，错误信息是： :: {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}-codeLine:54
+2019-04-29 12:08:18,299-INFO-collect_log.py-test_login-日志信息:执行用例是：密码错误，请求url是：/member/login-codeLine:44
+2019-04-29 12:08:18,299-INFO-collect_log.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456777"}-codeLine:44
+2019-04-29 12:08:18,369-ERROR-collect_log.py-test_login-日志信息:断言出错，错误信息是： :: {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}-codeLine:54
+开始执行TestLogin测试类
+执行用例是：用户名密码正确，请求url是：/member/login
+请求数据是：{"mobilephone":"13125256363","pwd":"123456"}
+用例执行成功
+执行用例是：用户名为空，请求url是：/member/login
+请求数据是：{"mobilephone":"","pwd":"123456"}
+用例执行成功
+执行用例是：密码为空，请求url是：/member/login
+请求数据是：{"mobilephone":"13125256363","pwd":""}
+用例执行成功
+执行用例是：用户名错误，请求url是：/member/login
+请求数据是：{"mobilephone":"13125250033","pwd":"123456"}
+断言出错，错误信息是： :: {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+执行用例是：密码错误，请求url是：/member/login
+请求数据是：{"mobilephone":"13125256363","pwd":"123456777"}
+断言出错，错误信息是： :: {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-04-29 13:50:52,330-INFO-test_login.py-test_login-日志信息:开始执行TestLogin测试类-codeLine:14
+2019-04-29 13:50:53,772-INFO-test_login.py-test_login-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:26
+2019-04-29 13:50:53,773-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:27
+2019-04-29 13:50:53,863-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:50:53,914-INFO-test_login.py-test_login-日志信息:执行用例是：用户名为空，请求url是：/member/login-codeLine:26
+2019-04-29 13:50:53,914-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"","pwd":"123456"}-codeLine:27
+2019-04-29 13:50:54,009-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:50:54,066-INFO-test_login.py-test_login-日志信息:执行用例是：密码为空，请求url是：/member/login-codeLine:26
+2019-04-29 13:50:54,067-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":""}-codeLine:27
+2019-04-29 13:50:54,141-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:50:54,201-INFO-test_login.py-test_login-日志信息:执行用例是：用户名错误，请求url是：/member/login-codeLine:26
+2019-04-29 13:50:54,201-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125250033","pwd":"123456"}-codeLine:27
+2019-04-29 13:50:54,390-ERROR-test_login.py-test_login-日志信息:断言出错，错误信息是： :: {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}-codeLine:32
+2019-04-29 13:50:54,450-INFO-test_login.py-test_login-日志信息:执行用例是：密码错误，请求url是：/member/login-codeLine:26
+2019-04-29 13:50:54,450-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456777"}-codeLine:27
+2019-04-29 13:50:54,523-ERROR-test_login.py-test_login-日志信息:断言出错，错误信息是： :: {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}-codeLine:32
+2019-04-29 13:51:16,295-INFO-test_login.py-test_login-日志信息:开始执行TestLogin测试类-codeLine:14
+2019-04-29 13:51:16,476-INFO-test_login.py-test_login-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:26
+2019-04-29 13:51:16,476-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:27
+2019-04-29 13:51:16,572-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:51:16,622-INFO-test_login.py-test_login-日志信息:执行用例是：用户名为空，请求url是：/member/login-codeLine:26
+2019-04-29 13:51:16,622-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"","pwd":"123456"}-codeLine:27
+2019-04-29 13:51:16,689-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:51:16,772-INFO-test_login.py-test_login-日志信息:执行用例是：密码为空，请求url是：/member/login-codeLine:26
+2019-04-29 13:51:16,772-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":""}-codeLine:27
+2019-04-29 13:51:16,853-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:51:16,912-INFO-test_login.py-test_login-日志信息:执行用例是：用户名错误，请求url是：/member/login-codeLine:26
+2019-04-29 13:51:16,912-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125250033","pwd":"123456"}-codeLine:27
+2019-04-29 13:51:16,992-ERROR-test_login.py-test_login-日志信息:断言出错，错误信息是：'{"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}
+?                                                   -
++ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+-codeLine:32
+2019-04-29 13:51:17,046-INFO-test_login.py-test_login-日志信息:执行用例是：密码错误，请求url是：/member/login-codeLine:26
+2019-04-29 13:51:17,046-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456777"}-codeLine:27
+2019-04-29 13:51:17,142-ERROR-test_login.py-test_login-日志信息:断言出错，错误信息是：'{"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}
+?                                                   -
++ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+-codeLine:32
+2019-04-29 13:51:44,878-INFO-test_login.py-test_login-日志信息:开始执行TestLogin测试类-codeLine:14
+2019-04-29 13:51:45,017-INFO-test_login.py-test_login-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:26
+2019-04-29 13:51:45,017-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:27
+2019-04-29 13:51:45,099-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:51:45,176-INFO-test_login.py-test_login-日志信息:执行用例是：用户名为空，请求url是：/member/login-codeLine:26
+2019-04-29 13:51:45,176-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"","pwd":"123456"}-codeLine:27
+2019-04-29 13:51:45,241-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:51:45,341-INFO-test_login.py-test_login-日志信息:执行用例是：密码为空，请求url是：/member/login-codeLine:26
+2019-04-29 13:51:45,341-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":""}-codeLine:27
+2019-04-29 13:51:45,405-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:51:45,497-INFO-test_login.py-test_login-日志信息:执行用例是：用户名错误，请求url是：/member/login-codeLine:26
+2019-04-29 13:51:45,497-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125250033","pwd":"123456"}-codeLine:27
+2019-04-29 13:51:45,578-ERROR-test_login.py-test_login-日志信息:断言出错，错误信息是：'{"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}
+?                                                   -
++ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+-codeLine:32
+2019-04-29 13:51:45,682-INFO-test_login.py-test_login-日志信息:执行用例是：密码错误，请求url是：/member/login-codeLine:26
+2019-04-29 13:51:45,682-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456777"}-codeLine:27
+2019-04-29 13:51:45,760-ERROR-test_login.py-test_login-日志信息:断言出错，错误信息是：'{"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}
+?                                                   -
++ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+-codeLine:32
+2019-04-29 13:52:11,919-INFO-test_login.py-test_login-日志信息:开始执行TestLogin测试类-codeLine:14
+2019-04-29 13:52:12,202-INFO-test_login.py-test_login-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:26
+2019-04-29 13:52:12,202-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:27
+2019-04-29 13:52:12,275-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:52:12,328-INFO-test_login.py-test_login-日志信息:执行用例是：用户名为空，请求url是：/member/login-codeLine:26
+2019-04-29 13:52:12,328-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"","pwd":"123456"}-codeLine:27
+2019-04-29 13:52:12,426-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:52:12,483-INFO-test_login.py-test_login-日志信息:执行用例是：密码为空，请求url是：/member/login-codeLine:26
+2019-04-29 13:52:12,485-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":""}-codeLine:27
+2019-04-29 13:52:12,552-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 13:52:12,608-INFO-test_login.py-test_login-日志信息:执行用例是：用户名错误，请求url是：/member/login-codeLine:26
+2019-04-29 13:52:12,609-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125250033","pwd":"123456"}-codeLine:27
+2019-04-29 13:52:12,677-ERROR-test_login.py-test_login-日志信息:断言出错，错误信息是：'{"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}
+?                                                   -
++ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+-codeLine:32
+2019-04-29 13:52:12,731-INFO-test_login.py-test_login-日志信息:执行用例是：密码错误，请求url是：/member/login-codeLine:26
+2019-04-29 13:52:12,732-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456777"}-codeLine:27
+2019-04-29 13:52:12,823-ERROR-test_login.py-test_login-日志信息:断言出错，错误信息是：'{"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}
+?                                                   -
++ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+-codeLine:32
+2019-04-29 13:53:12,747-INFO-collect_log.py-test-日志信息:hhhhhhh-codeLine:45
+2019-04-29 13:53:31,584-INFO-collect_log.py-test-日志信息:hhhhhhh-codeLine:45
+2019-04-29 13:53:31,584-INFO-collect_log.py-test-日志信息:xxxxxxx-codeLine:46
+2019-04-29 13:56:19,004-INFO-collect_log.py-test-日志信息:hhhhhhh-codeLine:44
+2019-04-29 13:56:19,004-INFO-collect_log.py-test-日志信息:xxxxxxx-codeLine:45
+2019-04-29 14:06:18,437-INFO-test_add.py-test_add-日志信息:开始执行TestAdd测试类-codeLine:15
+2019-04-29 14:06:18,468-INFO-test_audit.py-test_audit-日志信息:开始执行TestAudit测试类-codeLine:15
+2019-04-29 14:06:18,499-INFO-test_invest.py-test_invest-日志信息:开始执行TestInvest测试类-codeLine:15
+2019-04-29 14:06:18,530-INFO-test_login.py-test_login-日志信息:开始执行TestLogin测试类-codeLine:14
+2019-04-29 14:06:18,560-INFO-test_recharge.py-test_recharge-日志信息:开始执行TestRecharge测试类-codeLine:15
+2019-04-29 14:06:18,590-INFO-test_register.py-test_register-日志信息:开始执行TestRegister测试类-codeLine:14
+2019-04-29 14:06:24,154-INFO-test_add.py-test_add-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:28
+2019-04-29 14:06:24,154-INFO-test_add.py-test_add-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:29
+2019-04-29 14:06:24,224-INFO-test_add.py-test_add-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:24,296-INFO-test_add.py-test_add-日志信息:执行用例是：成功加标，请求url是：/loan/add-codeLine:28
+2019-04-29 14:06:24,296-INFO-test_add.py-test_add-日志信息:请求数据是：{"memberId":1451,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:29
+2019-04-29 14:06:24,469-INFO-test_add.py-test_add-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:24,729-INFO-test_add.py-test_add-日志信息:执行用例是：成功竞标，请求url是：/member/bidLoan-codeLine:28
+2019-04-29 14:06:24,729-INFO-test_add.py-test_add-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":6067,"amount":2000}-codeLine:29
+2019-04-29 14:06:24,844-ERROR-test_add.py-test_add-日志信息:断言失败，错误信息是：10001 != 11010-codeLine:34
+2019-04-29 14:06:24,894-INFO-test_add.py-test_add-日志信息:执行用例是：参数为空，请求url是：/loan/add-codeLine:28
+2019-04-29 14:06:24,894-INFO-test_add.py-test_add-日志信息:请求数据是：None-codeLine:29
+2019-04-29 14:06:24,971-INFO-test_add.py-test_add-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:25,024-INFO-test_add.py-test_add-日志信息:执行用例是：用户ID为小数，请求url是：/loan/add-codeLine:28
+2019-04-29 14:06:25,024-INFO-test_add.py-test_add-日志信息:请求数据是：{"memberId":-221,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:29
+2019-04-29 14:06:25,098-INFO-test_add.py-test_add-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:25,152-INFO-test_add.py-test_add-日志信息:执行用例是：用户不存在，请求url是：/loan/add-codeLine:28
+2019-04-29 14:06:25,153-INFO-test_add.py-test_add-日志信息:请求数据是：{"memberId":2212200,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:29
+2019-04-29 14:06:25,227-INFO-test_add.py-test_add-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:25,293-INFO-test_add.py-test_add-日志信息:执行用例是：借款金额小于1000，请求url是：/loan/add-codeLine:28
+2019-04-29 14:06:25,293-INFO-test_add.py-test_add-日志信息:请求数据是：{"memberId":1451,"title":"大C的测试标的","amount":9,"amount":900,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:29
+2019-04-29 14:06:25,379-ERROR-test_add.py-test_add-日志信息:断言失败，错误信息是：20106 != 10001-codeLine:34
+2019-04-29 14:06:25,432-INFO-test_add.py-test_add-日志信息:执行用例是：借款利率小于0，请求url是：/loan/add-codeLine:28
+2019-04-29 14:06:25,432-INFO-test_add.py-test_add-日志信息:请求数据是：{"memberId":1451,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":-5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:29
+2019-04-29 14:06:25,524-INFO-test_add.py-test_add-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:25,590-INFO-test_add.py-test_add-日志信息:执行用例是：借款日期类型错误，请求url是：/loan/add-codeLine:28
+2019-04-29 14:06:25,590-INFO-test_add.py-test_add-日志信息:请求数据是：{"memberId":1451,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":5,"repaymemtWay":11,"biddingDays":10}-codeLine:29
+2019-04-29 14:06:25,664-INFO-test_add.py-test_add-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:29,956-INFO-test_audit.py-test_audit-日志信息:执行用例是：登录成功，请求url是：/member/login-codeLine:28
+2019-04-29 14:06:29,956-INFO-test_audit.py-test_audit-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:29
+2019-04-29 14:06:30,045-INFO-test_audit.py-test_audit-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:30,118-INFO-test_audit.py-test_audit-日志信息:执行用例是：加标成功，请求url是：/loan/add-codeLine:28
+2019-04-29 14:06:30,118-INFO-test_audit.py-test_audit-日志信息:请求数据是：{"memberId":1764,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:29
+2019-04-29 14:06:30,183-INFO-test_audit.py-test_audit-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:30,277-INFO-test_audit.py-test_audit-日志信息:成功加标的ID是：6160-codeLine:42
+2019-04-29 14:06:30,331-INFO-test_audit.py-test_audit-日志信息:执行用例是：已经是该状态，修改失败，请求url是：/loan/audit-codeLine:28
+2019-04-29 14:06:30,332-INFO-test_audit.py-test_audit-日志信息:请求数据是：{"id":6160,"status":1}-codeLine:29
+2019-04-29 14:06:30,418-INFO-test_audit.py-test_audit-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:30,473-INFO-test_audit.py-test_audit-日志信息:执行用例是：审核成功，请求url是：/loan/audit-codeLine:28
+2019-04-29 14:06:30,473-INFO-test_audit.py-test_audit-日志信息:请求数据是：{"id":6160,"status":2}-codeLine:29
+2019-04-29 14:06:30,550-INFO-test_audit.py-test_audit-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:30,601-INFO-test_audit.py-test_audit-日志信息:执行用例是：标的ID错误，请求url是：/loan/audit-codeLine:28
+2019-04-29 14:06:30,602-INFO-test_audit.py-test_audit-日志信息:请求数据是：{"id":"hh","status":1}-codeLine:29
+2019-04-29 14:06:30,674-ERROR-test_audit.py-test_audit-日志信息:断言失败，错误信息是：20204 != 20212-codeLine:34
+2019-04-29 14:06:30,726-INFO-test_audit.py-test_audit-日志信息:执行用例是：status参数错误，请求url是：/loan/audit-codeLine:28
+2019-04-29 14:06:30,726-INFO-test_audit.py-test_audit-日志信息:请求数据是：{"id":6160,"status":12}-codeLine:29
+2019-04-29 14:06:30,821-INFO-test_audit.py-test_audit-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:30,870-INFO-test_audit.py-test_audit-日志信息:执行用例是：标的不存在，请求url是：/loan/audit-codeLine:28
+2019-04-29 14:06:30,870-INFO-test_audit.py-test_audit-日志信息:请求数据是：{"id":6330002,"status":1}-codeLine:29
+2019-04-29 14:06:30,937-INFO-test_audit.py-test_audit-日志信息:用例执行成功-codeLine:37
+2019-04-29 14:06:35,298-INFO-test_invest.py-test_invest-日志信息:执行用例是：管理员登录，请求url是：/member/login-codeLine:34
+2019-04-29 14:06:35,299-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"mobilephone":"13125250002","pwd":"123456"}-codeLine:35
+2019-04-29 14:06:35,382-INFO-test_invest.py-test_invest-日志信息:用例执行成功-codeLine:43
+2019-04-29 14:06:35,467-INFO-test_invest.py-test_invest-日志信息:执行用例是：管理员成功加标，请求url是：/loan/add-codeLine:34
+2019-04-29 14:06:35,467-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"memberId":1764,"title":"大C的测试标的","amount":9,"amount":2000,"loanRate":5,"loanTerm":30,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}-codeLine:35
+2019-04-29 14:06:35,541-INFO-test_invest.py-test_invest-日志信息:用例执行成功-codeLine:43
+2019-04-29 14:06:35,649-INFO-test_invest.py-test_invest-日志信息:成功加标的ID是：6161-codeLine:47
+2019-04-29 14:06:35,728-INFO-test_invest.py-test_invest-日志信息:执行用例是：管理员审核成功，请求url是：/loan/audit-codeLine:34
+2019-04-29 14:06:35,729-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"id":6161,"status":4}-codeLine:35
+2019-04-29 14:06:35,804-INFO-test_invest.py-test_invest-日志信息:用例执行成功-codeLine:43
+2019-04-29 14:06:35,894-INFO-test_invest.py-test_invest-日志信息:成功竞标前，用户余额是：125030.22-codeLine:31
+2019-04-29 14:06:35,966-INFO-test_invest.py-test_invest-日志信息:执行用例是：成功竞标，请求url是：/member/bidLoan-codeLine:34
+2019-04-29 14:06:35,966-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":6161,"amount":2000}-codeLine:35
+2019-04-29 14:06:36,054-INFO-test_invest.py-test_invest-日志信息:用例执行成功-codeLine:43
+2019-04-29 14:06:36,146-INFO-test_invest.py-test_invest-日志信息:成功竞标的ID是：6161，竞标金额是：2000，竞标成功后账户余额是123030.22-codeLine:51
+2019-04-29 14:06:36,176-INFO-test_invest.py-test_invest-日志信息:竞标成功后，账户余额正确-codeLine:54
+2019-04-29 14:06:36,240-INFO-test_invest.py-test_invest-日志信息:执行用例是：参数为空，请求url是：/member/bidLoan-codeLine:34
+2019-04-29 14:06:36,240-INFO-test_invest.py-test_invest-日志信息:请求数据是：None-codeLine:35
+2019-04-29 14:06:36,316-INFO-test_invest.py-test_invest-日志信息:用例执行成功-codeLine:43
+2019-04-29 14:06:36,428-INFO-test_invest.py-test_invest-日志信息:执行用例是：memberId等于0，请求url是：/member/bidLoan-codeLine:34
+2019-04-29 14:06:36,428-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"memberId":0,"password":"123456","loanId":6161,"amount":100}-codeLine:35
+2019-04-29 14:06:36,504-INFO-test_invest.py-test_invest-日志信息:用例执行成功-codeLine:43
+2019-04-29 14:06:36,643-INFO-test_invest.py-test_invest-日志信息:执行用例是：loanId等于负数，请求url是：/member/bidLoan-codeLine:34
+2019-04-29 14:06:36,644-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":-10,"amount":100}-codeLine:35
+2019-04-29 14:06:36,762-ERROR-test_invest.py-test_invest-日志信息:断言失败,错误信息是：11005 != 11009-codeLine:40
+2019-04-29 14:06:36,830-INFO-test_invest.py-test_invest-日志信息:执行用例是：密码错误，请求url是：/member/bidLoan-codeLine:34
+2019-04-29 14:06:36,830-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":6161,"amount":100}-codeLine:35
+2019-04-29 14:06:36,900-ERROR-test_invest.py-test_invest-日志信息:断言失败,错误信息是：11006 != 11010-codeLine:40
+2019-04-29 14:06:36,956-INFO-test_invest.py-test_invest-日志信息:执行用例是：投资金额小于100，请求url是：/member/bidLoan-codeLine:34
+2019-04-29 14:06:36,956-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":6161,"amount":99}-codeLine:35
+2019-04-29 14:06:37,028-INFO-test_invest.py-test_invest-日志信息:用例执行成功-codeLine:43
+2019-04-29 14:06:37,090-INFO-test_invest.py-test_invest-日志信息:执行用例是：用户未注册，请求url是：/member/bidLoan-codeLine:34
+2019-04-29 14:06:37,091-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"memberId":221002,"password":"123456","loanId":6161,"amount":100}-codeLine:35
+2019-04-29 14:06:37,162-INFO-test_invest.py-test_invest-日志信息:用例执行成功-codeLine:43
+2019-04-29 14:06:37,211-INFO-test_invest.py-test_invest-日志信息:执行用例是：标的不存在，请求url是：/member/bidLoan-codeLine:34
+2019-04-29 14:06:37,211-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":12345456785,"amount":100}-codeLine:35
+2019-04-29 14:06:37,286-INFO-test_invest.py-test_invest-日志信息:用例执行成功-codeLine:43
+2019-04-29 14:06:37,342-INFO-test_invest.py-test_invest-日志信息:执行用例是：不在竞标中状态，请求url是：/member/bidLoan-codeLine:34
+2019-04-29 14:06:37,343-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"memberId":1451,"password":"123456","loanId":6161,"amount":100}-codeLine:35
+2019-04-29 14:06:37,422-INFO-test_invest.py-test_invest-日志信息:用例执行成功-codeLine:43
+2019-04-29 14:06:37,475-INFO-test_invest.py-test_invest-日志信息:执行用例是：参数类型错误，请求url是：/member/bidLoan-codeLine:34
+2019-04-29 14:06:37,475-INFO-test_invest.py-test_invest-日志信息:请求数据是：{"memberId":"1451","password":123456,"loanId":"6161","amount":"200"}-codeLine:35
+2019-04-29 14:06:37,578-ERROR-test_invest.py-test_invest-日志信息:断言失败,错误信息是：11013 != 11010-codeLine:40
+2019-04-29 14:06:37,681-INFO-test_login.py-test_login-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:26
+2019-04-29 14:06:37,681-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:27
+2019-04-29 14:06:37,761-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 14:06:37,813-INFO-test_login.py-test_login-日志信息:执行用例是：用户名为空，请求url是：/member/login-codeLine:26
+2019-04-29 14:06:37,813-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"","pwd":"123456"}-codeLine:27
+2019-04-29 14:06:37,888-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 14:06:37,937-INFO-test_login.py-test_login-日志信息:执行用例是：密码为空，请求url是：/member/login-codeLine:26
+2019-04-29 14:06:37,937-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":""}-codeLine:27
+2019-04-29 14:06:38,017-INFO-test_login.py-test_login-日志信息:用例执行成功-codeLine:35
+2019-04-29 14:06:38,074-INFO-test_login.py-test_login-日志信息:执行用例是：用户名错误，请求url是：/member/login-codeLine:26
+2019-04-29 14:06:38,075-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125250033","pwd":"123456"}-codeLine:27
+2019-04-29 14:06:38,158-ERROR-test_login.py-test_login-日志信息:断言出错，错误信息是：'{"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}
+?                                                   -
++ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+-codeLine:32
+2019-04-29 14:06:38,217-INFO-test_login.py-test_login-日志信息:执行用例是：密码错误，请求url是：/member/login-codeLine:26
+2019-04-29 14:06:38,217-INFO-test_login.py-test_login-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456777"}-codeLine:27
+2019-04-29 14:06:38,310-ERROR-test_login.py-test_login-日志信息:断言出错，错误信息是：'{"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
+- {"status":0,"code":"20111","data":null,"msg":"用户名或者密码错误"}
+?                                                   -
++ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+-codeLine:32
+2019-04-29 14:06:42,615-INFO-test_recharge.py-test_recharge-日志信息:执行用例是：用户名密码正确，请求url是：/member/login-codeLine:32
+2019-04-29 14:06:42,616-INFO-test_recharge.py-test_recharge-日志信息:请求数据是：{"mobilephone":"13125256363","pwd":"123456"}-codeLine:33
+2019-04-29 14:06:42,733-INFO-test_recharge.py-test_recharge-日志信息:用例执行成功-codeLine:41
+2019-04-29 14:06:42,840-INFO-test_recharge.py-test_recharge-日志信息:用例开始执行前，账户余额是：123030.22-codeLine:30
+2019-04-29 14:06:42,936-INFO-test_recharge.py-test_recharge-日志信息:执行用例是：充值成功，请求url是：/member/recharge-codeLine:32
+2019-04-29 14:06:42,936-INFO-test_recharge.py-test_recharge-日志信息:请求数据是：{"mobilephone":"13125256363","amount":5000}-codeLine:33
+2019-04-29 14:06:43,018-INFO-test_recharge.py-test_recharge-日志信息:用例执行成功-codeLine:41
+2019-04-29 14:06:43,121-INFO-test_recharge.py-test_recharge-日志信息:充值成功后，账户余额是：128030.22-codeLine:44
+2019-04-29 14:06:43,121-INFO-test_recharge.py-test_recharge-日志信息:充值成功后,账户余额正确-codeLine:48
+2019-04-29 14:06:43,178-INFO-test_recharge.py-test_recharge-日志信息:执行用例是：手机号为空，请求url是：/member/recharge-codeLine:32
+2019-04-29 14:06:43,178-INFO-test_recharge.py-test_recharge-日志信息:请求数据是：{"mobilephone":"","amount":15}-codeLine:33
+2019-04-29 14:06:43,241-INFO-test_recharge.py-test_recharge-日志信息:用例执行成功-codeLine:41
+2019-04-29 14:06:43,292-INFO-test_recharge.py-test_recharge-日志信息:执行用例是：充值金额为空，请求url是：/member/recharge-codeLine:32
+2019-04-29 14:06:43,292-INFO-test_recharge.py-test_recharge-日志信息:请求数据是：{"mobilephone":"13125256363","amount":None}-codeLine:33
+2019-04-29 14:06:43,362-INFO-test_recharge.py-test_recharge-日志信息:用例执行成功-codeLine:41
+2019-04-29 14:06:43,419-INFO-test_recharge.py-test_recharge-日志信息:执行用例是：手机号未注册，请求url是：/member/recharge-codeLine:32
+2019-04-29 14:06:43,419-INFO-test_recharge.py-test_recharge-日志信息:请求数据是：{"mobilephone":"13100001111","amount":1.22}-codeLine:33
+2019-04-29 14:06:43,503-INFO-test_recharge.py-test_recharge-日志信息:用例执行成功-codeLine:41
+2019-04-29 14:06:43,565-INFO-test_recharge.py-test_recharge-日志信息:执行用例是：充值金额小于0，请求url是：/member/recharge-codeLine:32
+2019-04-29 14:06:43,565-INFO-test_recharge.py-test_recharge-日志信息:请求数据是：{"mobilephone":"13125256363","amount":-10}-codeLine:33
+2019-04-29 14:06:43,663-INFO-test_recharge.py-test_recharge-日志信息:用例执行成功-codeLine:41
+2019-04-29 14:06:43,712-INFO-test_recharge.py-test_recharge-日志信息:执行用例是：充值金额精度为3位小数，请求url是：/member/recharge-codeLine:32
+2019-04-29 14:06:43,712-INFO-test_recharge.py-test_recharge-日志信息:请求数据是：{"mobilephone":"13125256363","amount":10.345}-codeLine:33
+2019-04-29 14:06:43,780-INFO-test_recharge.py-test_recharge-日志信息:用例执行成功-codeLine:41
+2019-04-29 14:06:48,173-INFO-test_register.py-test_register-日志信息:执行用例是：手机号密码正确，请求url是：/member/register-codeLine:43
+2019-04-29 14:06:48,174-INFO-test_register.py-test_register-日志信息:请求数据是：{'mobilephone': 19000000000, 'pwd': '12345678'}-codeLine:44
+2019-04-29 14:06:48,249-ERROR-test_register.py-test_register-日志信息:断言失败，错误是：'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ^^^                     ^^^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^         ++  ^                     ^^^^^^^^^
+-codeLine:49
+2019-04-29 14:06:48,401-INFO-test_register.py-test_register-日志信息:执行用例是：密码为6位，请求url是：/member/register-codeLine:43
+2019-04-29 14:06:48,401-INFO-test_register.py-test_register-日志信息:请求数据是：{'mobilephone': 19000000000, 'pwd': '123456'}-codeLine:44
+2019-04-29 14:06:48,483-ERROR-test_register.py-test_register-日志信息:断言失败，错误是：'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ^^^                     ^^^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^         ++  ^                     ^^^^^^^^^
+-codeLine:49
+2019-04-29 14:06:48,645-INFO-test_register.py-test_register-日志信息:执行用例是：密码为18位，请求url是：/member/register-codeLine:43
+2019-04-29 14:06:48,645-INFO-test_register.py-test_register-日志信息:请求数据是：{'mobilephone': 19000000000, 'pwd': '1234567890abcdefgh'}-codeLine:44
+2019-04-29 14:06:48,720-ERROR-test_register.py-test_register-日志信息:断言失败，错误是：'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ^^^                     ^^^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^         ++  ^                     ^^^^^^^^^
+-codeLine:49
+2019-04-29 14:06:48,775-INFO-test_register.py-test_register-日志信息:执行用例是：手机号为空，请求url是：/member/register-codeLine:43
+2019-04-29 14:06:48,775-INFO-test_register.py-test_register-日志信息:请求数据是：{'mobilephone': '', 'pwd': '12345678'}-codeLine:44
+2019-04-29 14:06:48,858-INFO-test_register.py-test_register-日志信息:用例执行成功-codeLine:52
+2019-04-29 14:06:49,021-INFO-test_register.py-test_register-日志信息:执行用例是：密码为空，请求url是：/member/register-codeLine:43
+2019-04-29 14:06:49,023-INFO-test_register.py-test_register-日志信息:请求数据是：{'mobilephone': 19000000000, 'pwd': ''}-codeLine:44
+2019-04-29 14:06:49,164-INFO-test_register.py-test_register-日志信息:用例执行成功-codeLine:52
+2019-04-29 14:06:49,345-INFO-test_register.py-test_register-日志信息:执行用例是：密码为5位，请求url是：/member/register-codeLine:43
+2019-04-29 14:06:49,345-INFO-test_register.py-test_register-日志信息:请求数据是：{'mobilephone': 19000000000, 'pwd': '12345'}-codeLine:44
+2019-04-29 14:06:49,431-INFO-test_register.py-test_register-日志信息:用例执行成功-codeLine:52
+2019-04-29 14:06:49,491-INFO-test_register.py-test_register-日志信息:执行用例是：手机号已注册，请求url是：/member/register-codeLine:43
+2019-04-29 14:06:49,491-INFO-test_register.py-test_register-日志信息:请求数据是：{'mobilephone': '13125256363', 'pwd': '123456'}-codeLine:44
+2019-04-29 14:06:49,578-INFO-test_register.py-test_register-日志信息:用例执行成功-codeLine:52
