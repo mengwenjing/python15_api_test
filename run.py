@@ -1,4 +1,4 @@
-# 通过loader来加载整个模块的用例
+# 通过 loader来加载整个模块的用例
 import unittest
 import HTMLTestRunner
 from common import contants
